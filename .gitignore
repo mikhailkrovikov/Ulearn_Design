@@ -1,0 +1,8 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/Module_1_Incapsulation/Incapsulation.Failures/.vs/Incapsulation.Failures
+/Module_1_Incapsulation/Incapsulation.Failures/bin/Debug/net8.0
+/Module_1_Incapsulation/Incapsulation.Failures/obj
+*.sln
