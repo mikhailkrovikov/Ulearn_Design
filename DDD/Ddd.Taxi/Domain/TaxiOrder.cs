@@ -16,19 +16,17 @@ public class DriversRepository
             var car = new Car("Lada sedan", "Baklazhan", "A123BT 66");
             return new Driver(15, driverName, car);
         }
-        throw new Exception("Unknown driver id " + id);
+        throw new InvalidDataException("Unknown driver id " + id);
     }
 }
 
 public class TaxiApi : ITaxiApi<TaxiOrder>
 {
-    private readonly DriversRepository driversRepo;
     private readonly Func<DateTime> currentTime;
     private int idCounter;
 
     public TaxiApi(DriversRepository driversRepo, Func<DateTime> currentTime)
     {
-        this.driversRepo = driversRepo;
         this.currentTime = currentTime;
     }
 
