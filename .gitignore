@@ -58,3 +58,6 @@
 /DDD/Ddd.Taxi/.vs/Ddd.Taxi.slnx
 /DDD/Ddd.Taxi/bin/Debug/net8.0
 *.slnx
+/DDD/Ddd.Taxi/.vs/ProjectEvaluation
+/SRP/bin/Debug/net8.0
+/SRP/obj
